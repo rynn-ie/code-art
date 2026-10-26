@@ -39,6 +39,7 @@ p {
   gap: 30px;
   height: 100dvh;
 }
-<<<<<<< HEAD
-=======
->>>>>>> 1a937130a11c40fc9aba72d79ccf26ed1d3a8058
+
+controls {
+  position: 10 10;
+}
