@@ -1,5 +1,5 @@
 html, body {
-  margin: 0;
+  margin: 5vh, 10vw, 5vh, 10vw;
   padding: 0;
   display: flexbox;
   background-color: rgb(120, 201, 232);
@@ -30,10 +30,14 @@ p {
   font-style:italic;
 }
 
-div {
+.home {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 30px;
   height: 100dvh;
+}
+
+controls {
+  position: 10 10;
 }
