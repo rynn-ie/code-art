@@ -13,7 +13,7 @@ function setup() {
   strokeWeight(10)
 
 controlsContainer = createDiv();
-  controlsContainer.position(150, 100)
+  controlsContainer.position(10, 110)
   controlsContainer.class("controls");
 
   createP("circles").parent(controlsContainer)

@@ -4,8 +4,9 @@ html, body {
   margin: 5vh, 10vw, 5vh, 10vw;
   padding: 0;
   display: flexbox;
-  background-color: rgb(120, 201, 232);
+  background-color: #137ca5;
 }
+
 canvas {
   display: block;
   margin: 0 auto;
@@ -40,6 +41,8 @@ p {
   height: 100dvh;
 }
 
-controls {
+.controls {
   position: 10 10;
+  border:2px solid #085676;
+  padding: 10px;
 }
