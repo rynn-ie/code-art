@@ -1,0 +1,98 @@
+[
+  {
+    "when": "october 24",
+    "location": "aidan",
+    "purpose": "cooking, fam/friend",
+    "time": 3,
+    "others": "yes",
+    "emotion": "relaxed"
+  },
+  {
+    "when": "october 17",
+    "location": "event, out to eat, lauren",
+    "purpose": "nature, eating, fam/friend",
+    "time": 4,
+    "others": "partial",
+    "emotion": "very excited"
+  },
+  {
+    "when": "october 03",
+    "location": "lauren",
+    "purpose": "cooking, tv",
+    "time": 4,
+    "others": "partial",
+    "emotion": "relaxed"
+  },
+  {
+    "when": "october 02",
+    "location": "event, out to eat",
+    "purpose": "eating, fam/friend",
+    "time": 2,
+    "others": "yes",
+    "emotion": "happy"
+  },
+  {
+    "when": "september 21",
+    "location": "aidan",
+    "purpose": "church, cooking",
+    "time": 2,
+    "others": "no",
+    "emotion": "pleasant"
+  },
+  {
+    "when": "september 20",
+    "location": "lauren",
+    "purpose": "deep convos, fam/friend",
+    "time": 4,
+    "others": "partial",
+    "emotion": "relaxed"
+  },
+  {
+    "when": "september 19",
+    "location": "lauren, out to eat",
+    "purpose": "eating, tv",
+    "time": 4,
+    "others": "no",
+    "emotion": "excited"
+  },
+  {
+    "when": "september 12",
+    "location": "lauren",
+    "purpose": "tv, cooking",
+    "time": 3,
+    "others": "no",
+    "emotion": "happy"
+  },
+  {
+    "when": "august 22",
+    "location": "lauren",
+    "purpose": "church, deep convos",
+    "time": 2,
+    "others": "partial",
+    "emotion": "relaxed"
+  },
+  {
+    "when": "august 14",
+    "location": "shopping",
+    "purpose": "deep convos",
+    "time": 4,
+    "others": "no",
+    "emotion": "excited"
+  },
+  {
+    "when": "august 12",
+    "location": "other",
+    "purpose": "gaming, fam/friend",
+    "time": 4,
+    "others": "yes",
+    "emotion": "social"
+  },
+  {
+    "when": "august 05-10",
+    "location": "trip!",
+    "purpose": "fam/friend, nature, eating, deep convos",
+    "time": 4,
+    "others": "partial",
+    "emotion": "very excited"
+  }
+]

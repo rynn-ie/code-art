@@ -1,0 +1,211 @@
+:root {
+    --leftseccolor: #ffffff;
+    --leftsecaccent: #ffffff;
+    --rightseccolor: #490c05;
+    --rightsecaccent: #d54040;
+    --navcolor: #950707;
+}
+.navitems {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    z-index: 100;
+    gap: 3.3rem;
+    align-items: center;
+    background-color: var(--navcolor);
+    }
+
+ul {
+    list-style-type: none;
+} 
+
+li {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    font-family: "Bricolage Grotesque", Helvetica;
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #da7474;
+}
+
+.section-grid {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    min-height: 100dvh;
+}
+
+@media (max-width: 1000px) {
+  .section-grid {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+.section-grid-places {
+    display: grid;
+    grid-template-columns: auto auto;
+    min-height: auto;
+}
+
+h1 {
+    font-family: "Instrument Serif", serif;
+    font-size: 2.2rem;
+    color: #ff7f7f;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    font-family: "Bricolage Grotesque", Helvetica;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #ff5353;
+}
+
+.placeitems h2 {
+    font-family: "Bricolage Grotesque", Helvetica;
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--rightsecaccent);
+}
+
+h3 {
+    font-family: "Bricolage Grotesque", Helvetica;
+    font-weight: 600;
+    font-size: 0.75rem;
+    color: #ffdddd;
+}
+
+.icon {
+    width: 50px;
+}
+
+.leftsec {
+    background-color: var(--leftseccolor);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rightsec {
+    background-color: var(--rightseccolor);
+    padding: 2rem 4rem 2rem 4rem;
+}
+
+#sketch4 {
+    margin-bottom: 20px;
+}
+
+#day {
+    color: var(--rightsecaccent);
+    font-weight: 400;
+}
+
+.horizontal-text {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+#city {
+    color: white;
+}
+
+#state {
+    color: white;
+}
+
+#lat {
+    color: var(--leftsecaccent);
+    margin-bottom: 3px;
+}
+
+#long {
+    color: var(--leftsecaccent);
+}
+
+.horizontal-flex {
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 35%;
+}
+
+#visitReason {
+    color: white;
+    text-align: right;
+    line-height: 1.2rem;
+    font-weight: 400;
+}
+
+.header /*add padding below for list items*/ {
+    padding-bottom: 1.5rem;
+
+}
+
+button {
+    font-family: "Bricolage Grotesque", Helvetica;
+    font-weight: 400;
+    font-size: 0.75rem;
+    color: #ffaaaa;
+    text-decoration: underline;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0px 5px 0px;
+    text-align: left;
+    margin: 0;
+}
+
+button:active {
+    font-family: "Bricolage Grotesque", Helvetica;
+    font-weight: 600;
+    font-size: 0.75rem;
+    color: #ffaaaa;
+    text-decoration: underline;
+}
+
+button:hover {
+    font-family: "Bricolage Grotesque", Helvetica;
+    font-weight: 600;
+    font-size: 0.75rem;
+    color: #5f7b65;
+    text-decoration: underline;
+}
+
+.placeitems {
+    margin-bottom: 10%;
+}
+
+.leftcol {
+    height: auto;
+}
+
+.rightcol {
+    height: auto;
+    margin-left: 1rem;
+}
+
+#places {
+    margin-top: 1rem;
+}
+
+label {
+    font-family: "Bricolage Grotesque", Helvetica;
+    font-weight: 400;
+    font-size: 0.75rem;
+    color: var(--rightsecaccent);
+}
+
+input[type="radio"] {
+  accent-color: #FF6640;
+}
+
+.filter-box {
+    display: flex;
+    justify-content: space-between;
+}
