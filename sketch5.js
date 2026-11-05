@@ -57,9 +57,11 @@ function draw() {
   }
 }
 
-// click: a new noise landscape on a clean sheet
 function mousePressed() {
-  particles.push(makeParticle(mouseX, mouseY))
+  colors = []
+  for (let i = 0; i < 4; i++) {
+    colors.push(color(random(255), random(255), random(255)))
+  }
 }
 
 function keyPressed() {
