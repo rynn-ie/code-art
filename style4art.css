@@ -1,5 +1,5 @@
 :root {
-    --leftseccolor: #ffffff;
+    --leftseccolor: #f7f6e7;
     --leftsecaccent: #ffffff;
     --rightseccolor: #490c05;
     --rightsecaccent: #d54040;
@@ -35,7 +35,7 @@ a {
 
 .section-grid {
     display: grid;
-    grid-template-columns: 3fr 2fr;
+    grid-template-rows: auto auto;
     min-height: 100dvh;
 }
 
@@ -208,4 +208,20 @@ input[type="radio"] {
 .filter-box {
     display: flex;
     justify-content: space-between;
+}
+
+img {
+    max-width: 500px;
+}
+
+p {
+    font-family: "Bricolage Grotesque", Helvetica;
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #da7474;
+}
+
+.key {
+    max-width: 1000px;
 }
