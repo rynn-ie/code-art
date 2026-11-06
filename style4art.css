@@ -1,9 +1,9 @@
 :root {
     --leftseccolor: #f7f6e7;
     --leftsecaccent: #ffffff;
-    --rightseccolor: #490c05;
-    --rightsecaccent: #d54040;
-    --navcolor: #950707;
+    --rightseccolor: #D7EAAC;
+    --rightsecaccent: #D7EAAC;
+    --navcolor: rgb(246, 171, 171);
 }
 .navitems {
     display: flex;
@@ -30,7 +30,7 @@ a {
     font-weight: 600;
     font-size: 1rem;
     text-decoration: none;
-    color: #da7474;
+    color: #f7f6e7;
 }
 
 .section-grid {
@@ -55,7 +55,7 @@ a {
 h1 {
     font-family: "Instrument Serif", serif;
     font-size: 2.2rem;
-    color: #ff7f7f;
+    color: #ff6e6e;
     margin-bottom: 0.5rem;
 }
 
@@ -63,7 +63,7 @@ h2 {
     font-family: "Bricolage Grotesque", Helvetica;
     font-weight: 600;
     font-size: 1rem;
-    color: #ff5353;
+    color: rgb(150, 49, 76);
 }
 
 .placeitems h2 {
